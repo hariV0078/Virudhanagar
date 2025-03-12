@@ -46,7 +46,7 @@ transformers==4.39.3  # Latest version for Python 3.11
 # Additional Libraries
 fpdf2==2.7.7
 python-dotenv==1.0.1
-regex==2024.2.12
+regex
 
 # Custom / Unknown Dependencies
 exa_py
