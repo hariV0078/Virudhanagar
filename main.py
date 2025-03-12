@@ -31,6 +31,8 @@ SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+EXA_API_KEY=os.getenv("EXA_API_KEY")
+PHI_API_KEY=os.getenv("PHI_API_KEY")
 
 class AnalysisRequest(BaseModel):
     product_name: str
