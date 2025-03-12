@@ -6,12 +6,9 @@ uvicorn>=0.24.0.post1
 # CORS support
 starlette==0.36.3
 
-# Google AI & Authentication
-google-auth==2.38.0
-google-genai==1.2.0
 
 # NLP & Image Processing
-numpy
+
 pillow==11.1.0
 pydantic[email]
 # PDF Handling
@@ -38,8 +35,9 @@ cachetools==5.5.2
 annotated-types==0.7.0
 python-multipart
 
-# Machine Learning & NLP
-torch==2.2.1  # Update if using CUDA
+# Core dependencies with version pins
+numpy==1.26.4  # Critical for PyTorch compatibility
+torch==2.2.1 --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision==0.17.1
 torchaudio==2.2.1
 transformers==4.39.3  # Latest version for Python 3.11
