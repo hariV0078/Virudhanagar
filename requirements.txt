@@ -13,7 +13,7 @@ google-genai==1.2.0
 # NLP & Image Processing
 numpy
 pillow==11.1.0
-
+pydantic[email]
 # PDF Handling
 pymupdf==1.23.9  # fitz module
 
