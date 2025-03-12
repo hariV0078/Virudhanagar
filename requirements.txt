@@ -50,7 +50,7 @@ regex
 
 # Custom / Unknown Dependencies
 exa_py
-phi-api
+
 phidata
 phi-tools
 exa
